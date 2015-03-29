@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Document {
-    URL docId;
+    String urlId;
     List<URL> inLinks = new ArrayList<>();
     List<URL> outLinks = new ArrayList<>();
     String text;
